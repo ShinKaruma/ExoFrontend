@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map.
+ */
+#map {
+  height: 90%;
+  width: 40%;
+  float: right;
+}
+#main{
+  height: 90%;
+  width: 60%;
+  float: left;
+}
+
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #001519;
+}
+
+header{
+  height: 10%;
+  color: beige;
+}
